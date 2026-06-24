@@ -426,187 +426,6 @@
 
 
 
-.education-section {
-  background-color: #050414;
-  padding: 60px 20px;
-  color: white;
-  font-family: Arial, sans-serif;
-}
-
-.education-header {
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-.education-header h2 {
-  font-size: 2.5rem;
-  font-weight: bold;
-}
-
-.header-underline {
-  width: 60px;
-  height: 3px;
-  background-color: #8245ec;
-  margin: 10px auto;
-  border-radius: 2px;
-}
-
-.education-header p {
-  color: #ccc;
-  font-size: 1rem;
-  margin-top: 10px;
-}
-
-/* Timeline */
-.education-timeline {
-  position: relative;
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 20px 0;
-}
-
-.timeline-line {
-  position: absolute;
-  left: 50%;
-  top: 0;
-  transform: translateX(-50%);
-  width: 4px;
-  height: 100%;
-  background-color: #8245ec;
-  z-index: 1;
-}
-
-.education-item {
-  position: relative;
-  width: 50%;
-  padding: 20px 40px;
-  box-sizing: border-box;
-}
-
-.education-item.left {
-  left: 0;
-  text-align: right;
-}
-
-.education-item.right {
-  left: 50%;
-  text-align: left;
-}
-
-.timeline-circle {
-  position: absolute;
-  top: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 60px;
-  height: 60px;
-  border: 4px solid #8245ec;
-  border-radius: 50%;
-  background-color: #111;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  z-index: 2;
-}
-
-.timeline-circle img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
-.education-content {
-  background-color: #111;
-  border-radius: 15px;
-  padding: 20px;
-  border: 1px solid #8245ec;
-  box-shadow: 0 0 20px rgba(130, 69, 236, 0.3);
-  transition: transform 0.3s ease;
-}
-
-.education-item:hover .education-content {
-  transform: scale(1.05);
-}
-
-.education-header-content {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  margin-bottom: 10px;
-}
-
-.school-logo {
-  width: 60px;
-  height: 40px;
-  overflow: hidden;
-  border-radius: 8px;
-}
-
-.school-logo img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.education-content h3 {
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #fff;
-  margin: 0;
-}
-
-.education-content h4 {
-  font-size: 1rem;
-  color: #aaa;
-  margin: 2px 0;
-}
-
-.edu-date {
-  font-size: 0.85rem;
-  color: #888;
-}
-
-.edu-grade {
-  font-weight: bold;
-  color: #ccc;
-  margin-top: 5px;
-}
-
-.edu-desc {
-  color: #aaa;
-  margin-top: 5px;
-  font-size: 0.95rem;
-}
-
-/* Icons style */
-.icon-inline {
-  margin-right: 6px;
-  color: #8245ec;
-}
-
-/* Responsive */
-@media screen and (max-width: 768px) {
-  .education-item {
-    width: 100%;
-    text-align: left !important;
-    padding-left: 80px;
-    padding-right: 20px;
-    margin-bottom: 40px;
-  }
-
-  .timeline-line {
-    left: 30px;
-  }
-
-  .timeline-circle {
-    left: 30px;
-  }
-}
-
-
-
 footer {
   background-color: #050414;
   color: white;
@@ -784,40 +603,9 @@ footer p {
 }
 
 
-.timeline-circle {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;          /* round shape */
-  overflow: hidden;            /* image bahar na nikle */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #fff;            /* white background */
-  border: 2px solid #a855f7;   /* purple border */
-  margin: 0 auto 15px auto;    /* center align */
-}
-
-.timeline-circle img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;         /* pura image visible rahe */
-}
 
 
-.school-logo {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  overflow: hidden;
-  margin-right: 12px;
-  flex-shrink: 0;
-}
 
-.school-logo img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
 
 
 
@@ -926,22 +714,7 @@ footer p {
 }
 
 /* Project Link */
-.project-link {
-  display: inline-block;
-  padding: 10px 16px;
-  background: #3b82f6;
-  color: #fff;
-  font-size: 0.9rem;
-  font-weight: 600;
-  border-radius: 8px;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
 
-.project-link:hover {
-  background: #2563eb;
-  transform: scale(1.05);
-}
 
 
 .project-buttons {
@@ -967,4 +740,182 @@ footer p {
 
 .source-btn {
   background: linear-gradient(45deg, #ff6a00, #ee0979);
+}
+
+
+
+/* Education Section */
+.education-section {
+  padding: 80px 20px;
+  background: #0f172a;
+  color: #fff;
+}
+
+.education-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.education-header h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.header-underline {
+  width: 80px;
+  height: 4px;
+  background: #3b82f6;
+  margin: 10px auto 20px;
+  border-radius: 5px;
+}
+
+.education-header p {
+  max-width: 700px;
+  margin: auto;
+  color: #cbd5e1;
+  line-height: 1.6;
+}
+
+.education-timeline {
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.timeline-line {
+  position: absolute;
+  width: 4px;
+  background: #3b82f6;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.education-item {
+  position: relative;
+  width: 50%;
+  padding: 20px 40px;
+  box-sizing: border-box;
+}
+
+.education-item.left {
+  left: 0;
+  text-align: right;
+}
+
+.education-item.right {
+  left: 50%;
+}
+
+.timeline-circle {
+  position: absolute;
+  top: 30px;
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  border: 4px solid #3b82f6;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.education-item.left .timeline-circle {
+  right: -30px;
+}
+
+.education-item.right .timeline-circle {
+  left: -30px;
+}
+
+.timeline-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.education-content {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease;
+}
+
+.education-content:hover {
+  transform: translateY(-5px);
+}
+
+.education-header-content {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.school-logo {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+}
+
+.school-logo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.edu-degree {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.edu-date,
+.edu-grade {
+  color: #94a3b8;
+  margin-top: 8px;
+}
+
+.edu-desc {
+  margin-top: 10px;
+  line-height: 1.6;
+  color: #e2e8f0;
+}
+
+.icon-inline {
+  margin-right: 8px;
+  color: #3b82f6;
+}
+
+@media (max-width: 768px) {
+  .timeline-line {
+    left: 20px;
+  }
+
+  .education-item,
+  .education-item.left,
+  .education-item.right {
+    width: 100%;
+    left: 0;
+    text-align: left;
+    padding-left: 70px;
+    padding-right: 20px;
+  }
+
+  .timeline-circle,
+  .education-item.left .timeline-circle,
+  .education-item.right .timeline-circle {
+    left: -10px;
+    right: auto;
+  }
+
+  .education-header-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .school-logo {
+    width: 50px;
+    height: 50px;
+  }
 }

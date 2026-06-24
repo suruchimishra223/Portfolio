@@ -30,7 +30,7 @@ const Navbar = () => {
 
         <div className="social-icons">
           <a href="https://github.com/suruchimishra223" target="_blank" rel="noopener noreferrer"><FaGithub size={24} /></a>
-          <a href="https://www.linkedin.com/in/suruchi-mishra" target="_blank" rel="noopener noreferrer"><FaLinkedin size={24} /></a>
+          <a href="https://www.linkedin.com/in/suruchi-mishra-468a57227" target="_blank" rel="noopener noreferrer"><FaLinkedin size={24} /></a>
         </div>
 
         <div className="mobile-menu-icon" onClick={() => setIsOpen(!isOpen)}>

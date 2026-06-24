@@ -17,7 +17,7 @@ const Work = () => {
       tech: ["HTML", "CSS", "JavaScript", "React", "EmailJS", "AOS"],
       link: "https://mishraportfolio-85.netlify.app",
       source: "https://github.com/your-username/portfolio", // 👈 Add GitHub link
-      // image: "/port.png",
+      image: "/port1.png",
     },
     {
       title: "E-commerce App",
@@ -33,9 +33,9 @@ const Work = () => {
       description:
         "A management system for gyms with member tracking and backend API integration.",
       tech: ["React", "Node.js", "Express", "MongoDB", "AOS"],
-      link: "https://backend-gym-2xem.vercel.app/",
-      source: "https://github.com/suruchimishra223/Backend-gym", // 👈 Add GitHub link
-      // image: "/gym.png",
+      link: "https://gym-management-vetw-n9a60mhme-suruchimishra223s-projects.vercel.app/",
+      source: "https://github.com/suruchimishra223/gym-management-", // 👈 Add GitHub link
+      image: "/gym1.png",
     },
   ];
 

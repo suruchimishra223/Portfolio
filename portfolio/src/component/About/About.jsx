@@ -68,7 +68,7 @@ const About = () => {
             gyroscope={true}
           >
             <img
-              src="/personal.jpeg"   // ✅ public folder image fix
+              src="/image.png"   // ✅ public folder image fix
               alt="Suruchi Mishra"
               className="profile-image"
             />
